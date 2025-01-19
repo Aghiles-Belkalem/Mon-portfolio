@@ -10,7 +10,7 @@ export default function Footer() {
 					>
 						<img
 							className="icone-github"
-							src="/assets/icones/github (2).png"
+							src="public/assets/icones/github (2).png"
 							alt="Mon github"
 						/>
 					</a>
@@ -19,7 +19,7 @@ export default function Footer() {
 					<a href="https://wa.me/0615406661" target="_blank" rel="noreferrer">
 						<img
 							className="icone-whatsapp"
-							src="/assets/icones/whatsapp (2).png"
+							src="public/assets/icones/whatsapp (2).png"
 							alt="mon whatsapp"
 						/>
 					</a>
@@ -31,7 +31,7 @@ export default function Footer() {
 						rel="noreferrer"
 					>
 						<img
-							src="/assets/icones/business.png"
+							src="public/assets/icones/business.png"
 							alt="user linkedin"
 							className="icone-linkedin"
 						/>

@@ -13,19 +13,19 @@ const HomePage = () => {
 				<section className="home-page">
 					<h1 className="homepage-title">{t.title}</h1>{" "}
 					<article className="workSkills">
-						<img src="/assets/icones/api.png" alt="" className="devskills" />
+						<img src="public/assets/icones/api.png" alt="" className="devskills" />
 						<img
-							src="/assets/icones/atomic.png"
+							src="public/assets/icones/atomic.png"
 							alt=""
 							className="devskills"
 						/>
 						<img
-							src="/assets/icones/css-3.png"
+							src="public/assets/icones/css-3.png"
 							alt=""
 							className="devskills"
 						/>
 						<img
-							src="/assets/icones/github (2).png"
+							src="public/assets/icones/github (2).png"
 							alt=""
 							className="devskills"
 						/>
@@ -35,7 +35,7 @@ const HomePage = () => {
 							className="devskills"
 						/>
 						<img
-							src="/assets/icones/nodejs.png"
+							src="public/assets/icones/nodejs.png"
 							alt=""
 							className="devskills"
 						/>
@@ -43,7 +43,7 @@ const HomePage = () => {
 					<article className="home-pageArticle">
 						<p className="homepage-intro">{t["homepage-intro"]}</p>
 						<img
-							src="/assets/User-pic/Wilders-189-removebg-preview.png"
+							src="public/assets/User-pic/Wilders-189-removebg-preview.png"
 							alt="moi"
 							className="user-pic"
 						/>
@@ -52,7 +52,7 @@ const HomePage = () => {
 						<div className="skills-container">
 							<div className="skill-item">
 								<img
-									src="/assets/icones/teamwork.png"
+									src="public/assets/icones/teamwork.png"
 									alt={t["skill-teamwork"]}
 									className="skills"
 								/>
@@ -60,7 +60,7 @@ const HomePage = () => {
 							</div>
 							<div className="skill-item">
 								<img
-									src="/assets/icones/reward.png"
+									src="public/assets/icones/reward.png"
 									alt={t["skill-motivation"]}
 									className="skills"
 								/>
@@ -68,7 +68,7 @@ const HomePage = () => {
 							</div>
 							<div className="skill-item">
 								<img
-									src="/assets/icones/motivation.png"
+									src="public/assets/icones/motivation.png"
 									alt={t["skill-passion"]}
 									className="skills"
 								/>
