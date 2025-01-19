@@ -34,7 +34,7 @@ export default function Header() {
 			<div className="menue-container">
 				<nav ref={menuRef}>
 					<img
-						src="public/assets/icones/list.png"
+						src="assets/icones/list.png"
 						alt="liste"
 						className={`burger-menu ${menueIsOpen ? "open" : ""}`}
 						onClick={toggleMenue}
@@ -71,13 +71,13 @@ export default function Header() {
 							>
 								{lang === "fr" ? (
 									<img
-										src="public/assets/icones/france_flag.png"
+										src="assets/icones/france_flag.png"
 										alt="France"
 										className="flag-icon"
 									/>
 								) : (
 									<img
-										src="public/assets/icones/uk_flag.png"
+										src="assets/icones/uk_flag.png"
 										alt="Usa"
 										className="flag-icon"
 									/>

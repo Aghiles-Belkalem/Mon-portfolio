@@ -23,7 +23,7 @@ export default function MonParcour() {
 								{t["2024 Developpeur Web Full Stack"]}{" "}
 							</div>
 							<img
-								src="public/assets/icones/wild_code_school-removebg-preview.png"
+								src="assets/icones/wild_code_school-removebg-preview.png"
 								alt="wild code school"
 								className="wild-code-school"
 							/>
@@ -54,7 +54,7 @@ export default function MonParcour() {
 								{t["2020 - 2024 Responsable logistique"]}{" "}
 							</div>
 							<img
-								src="public/assets/icones/trusk.png"
+								src="assets/icones/trusk.png"
 								alt="Trusk logistique"
 								className="trusk"
 							/>
@@ -85,7 +85,7 @@ export default function MonParcour() {
 								{t["2015 - 2019 Gérant de Bijouterie"]}{" "}
 							</div>
 							<img
-								src="public/assets/icones/bijouterie_pénéloppe-removebg-preview.png"
+								src="assets/icones/bijouterie_pénéloppe-removebg-preview.png"
 								alt="bijouterie pénèlope"
 								className="bijouterie-pénèlope"
 							/>
