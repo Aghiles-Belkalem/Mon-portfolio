@@ -1,0 +1,120 @@
+.parcour-intro {
+	color: var(--white);
+	font-family: var(--textFont);
+	font-size: small;
+	width: 50ch;
+	padding: 0.3rem 0.3rem;
+	border: 0px solid #161616c7;
+	box-shadow: 4px 4px 6px 2px #be56c60f;
+	border-radius: 15px;
+	color: var(--white);
+	margin-bottom: 2rem;
+	padding: 0.6rem;
+	justify-self: center;
+}
+.parcour-title {
+	color: var(--white);
+	font-family: var(--titleFont);
+	width: 20ch;
+	text-align: center;
+	justify-self: center;
+	font-size: medium;
+	margin-bottom: 1rem;
+}
+.experience-title {
+	color: var(--white);
+	font-family: var(--titleFont);
+	font-size: medium;
+	margin: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.experience {
+	font-family: var(--textFont);
+	font-size: small;
+	width: 35ch;
+	padding: 0.3rem 0.3rem;
+	border: 0px solid #161616c7;
+	box-shadow: 4px 4px 6px 2px #be56c60f;
+	border-radius: 15px;
+	color: var(--white);
+	margin-bottom: 1.3rem;
+	padding: 0.6rem;
+	justify-self: center;
+}
+.experience-details {
+	margin-bottom: 1rem;
+}
+.bijouterie-pénèlope {
+	width: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-self: center;
+}
+.trusk {
+	width: 45px;
+	display: flex;
+	flex-direction: row;
+	justify-self: center;
+}
+.wild-code-school {
+	width: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-self: center;
+}
+@media screen and (min-width: 768px) {
+	.parcour-intro {
+		color: var(--white);
+		font-family: var(--textFont);
+		font-size: medium;
+		width: 70ch;
+		padding: 0.3rem 0.3rem;
+		border: 0px solid #161616c7;
+		box-shadow: 4px 4px 6px 2px #be56c60f;
+		border-radius: 15px;
+		color: var(--white);
+		margin-bottom: 2rem;
+		padding: 0.6rem;
+		justify-self: center;
+	}
+	.parcour-title {
+		color: var(--white);
+		font-family: var(--titleFont);
+		width: 20ch;
+		font-size: large;
+		margin: 2rem;
+	}
+	.experience-title {
+		color: var(--white);
+		font-family: var(--titleFont);
+		font-size: large;
+		margin: 2rem 2rem 2rem 8rem;
+		justify-self: baseline;
+	}
+	.experience {
+		font-family: var(--textFont);
+		font-size: medium;
+		width: 35ch;
+		padding: 0.3rem 0.3rem;
+		border: 0px solid #161616c7;
+		box-shadow: 4px 4px 6px 2px #be56c60f;
+		border-radius: 15px;
+		color: var(--white);
+		margin-bottom: 1.3rem;
+		padding: 0.6rem;
+	}
+	.experience-details {
+		margin-bottom: 1rem;
+	}
+	.bijouterie-pénèlope {
+		width: 120px;
+	}
+	.trusk {
+		width: 75px;
+	}
+	.wild-code-school {
+		width: 100px;
+	}
+}
