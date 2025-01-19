@@ -7,8 +7,7 @@ export default function Header() {
 	const [menueIsOpen, setMenueIsOpen] = useState(false);
 	const { lang, setLang, t } = useLanguage();
 
-	const menuRef = useRef(null);
-
+	const menuRef = useRef<HTMLDivElement | null>(null);
 	const toggleMenue = () => {
 		setMenueIsOpen(!menueIsOpen);
 	};
@@ -16,9 +15,9 @@ export default function Header() {
 	const toggleLanguage = () => {
 		setLang(lang === "fr" ? "en" : "fr");
 	};
-
-	const handleClickOutside = (event) => {
-		if (menuRef.current && !menuRef.current.contains(event.target)) {
+	
+	const handleClickOutside = (event: MouseEvent) => {
+		if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
 			setMenueIsOpen(false);
 		}
 	};
@@ -42,7 +41,7 @@ export default function Header() {
 					/>
 					<ul className={`nav-list ${menueIsOpen ? "open" : ""}`}>
 						<li>
-							<ThemeToggle className="theme-mode" />
+							<ThemeToggle  />
 						</li>
 						<li>
 							<Link to="/" className="nav-link">
