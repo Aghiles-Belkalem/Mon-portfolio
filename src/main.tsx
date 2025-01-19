@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import MesProjets from "./Pages/Projets.tsx";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import MonParcour from "./Pages/Parcours.tsx";
 import HomePage from "./components/Accueil/HomePage.tsx";
 import { ThemeProvider } from "./components/ThemeContext/ThemeContext.tsx";
@@ -10,7 +10,7 @@ import { LanguageProvider } from "./TaductionContext/LanguagesContext.tsx";
 import App from "./App.tsx";
 import MesDiplomes from "./Pages/diplomes.tsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
 	{
 		element: <App />,
 		children: [
