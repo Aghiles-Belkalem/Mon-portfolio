@@ -13,7 +13,7 @@ const HomePage = () => {
 				<section className="home-page">
 					<h1 className="homepage-title">{t.title}</h1>{" "}
 					<article className="workSkills">
-						<img src="public/assets/icones/api.png" alt="" className="devskills" />
+						<img src="assets/icones/api.png" alt="" className="devskills" />
 						<img
 							src="assets/icones/atomic.png"
 							alt=""

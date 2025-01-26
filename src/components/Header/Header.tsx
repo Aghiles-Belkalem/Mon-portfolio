@@ -15,7 +15,7 @@ export default function Header() {
 	const toggleLanguage = () => {
 		setLang(lang === "fr" ? "en" : "fr");
 	};
-	
+
 	const handleClickOutside = (event: MouseEvent) => {
 		if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
 			setMenueIsOpen(false);
@@ -35,13 +35,13 @@ export default function Header() {
 				<nav ref={menuRef}>
 					<img
 						src="assets/icones/list.png"
-						alt="liste"
+						alt="menue de navigation"
 						className={`burger-menu ${menueIsOpen ? "open" : ""}`}
 						onClick={toggleMenue}
 					/>
 					<ul className={`nav-list ${menueIsOpen ? "open" : ""}`}>
 						<li>
-							<ThemeToggle  />
+							<ThemeToggle />
 						</li>
 						<li>
 							<Link to="/" className="nav-link">
