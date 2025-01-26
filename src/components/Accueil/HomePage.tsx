@@ -16,27 +16,27 @@ const HomePage = () => {
 						<img src="assets/icones/api.png" alt="" className="devskills" />
 						<img
 							src="assets/icones/atomic.png"
-							alt=""
+							alt="React icone"
 							className="devskills"
 						/>
 						<img
 							src="assets/icones/css-3.png"
-							alt=""
+							alt="css ione"
 							className="devskills"
 						/>
 						<img
 							src="assets/icones/github (2).png"
-							alt=""
+							alt="github icone"
 							className="devskills"
 						/>
 						<img
 							src="assets/icones/html-5 (1).png"
-							alt=""
+							alt="html icone"
 							className="devskills"
 						/>
 						<img
 							src="assets/icones/nodejs.png"
-							alt=""
+							alt="node.js icone"
 							className="devskills"
 						/>
 					</article>
@@ -44,7 +44,7 @@ const HomePage = () => {
 						<p className="homepage-intro">{t["homepage-intro"]}</p>
 						<img
 							src="assets/User-pic/Wilders-189-removebg-preview.png"
-							alt="moi"
+							alt="Belkalem aghiles"
 							className="user-pic"
 						/>
 					</article>
